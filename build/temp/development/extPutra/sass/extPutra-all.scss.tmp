@@ -909,6 +909,8 @@ $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
 $include-extputra-application: dynamic(true);;
 $include-extputra-store-personnel: dynamic(true);;
+$include-extputra-view-login-login: dynamic(true);;
+$include-extputra-view-login-logincontroller: dynamic(true);;
 $include-extputra-view-main-list: dynamic(true);;
 $include-extputra-view-main-main: dynamic(true);;
 $include-extputra-view-main-maincontroller: dynamic(true);;
