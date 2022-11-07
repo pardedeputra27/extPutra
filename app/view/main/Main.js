@@ -8,7 +8,10 @@ Ext.define('extPutra.view.main.Main', {
 
         'extPutra.view.main.MainController',
         'extPutra.view.main.MainModel',
-        'extPutra.view.main.List'
+        'extPutra.view.main.List',
+
+        'extPutra.view.tab.BasicTabs'
+        
     ],
 
     controller: 'main',
@@ -100,5 +103,13 @@ Ext.define('extPutra.view.main.Main', {
         bind: {
             html: '{loremIpsum}'
         }
+    },{
+        title: 'tabbar',
+        iconCls: 'fa-home',
+        // The following grid shares a store with the classic version's grid as well!
+        items: [{
+            xtype: 'basic-tabs'
+        }]
+
     }]
 });

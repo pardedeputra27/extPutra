@@ -915,6 +915,7 @@ $include-extputra-view-main-list: dynamic(true);;
 $include-extputra-view-main-main: dynamic(true);;
 $include-extputra-view-main-maincontroller: dynamic(true);;
 $include-extputra-view-main-mainmodel: dynamic(true);;
+$include-extputra-view-tab-tabcontroller: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */
